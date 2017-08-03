@@ -34,4 +34,4 @@ Route::get('cancha', 'CanchasApi@show');
 
 Route::post('cancha', 'CanchasApi@store');
 
-Route::delete('canchas', 'CanchasApi@delete');
+Route::delete('cancha', 'CanchasApi@delete');
